@@ -1,0 +1,47 @@
+Navbar
+│
+├── Home
+├── Biography
+├── Education
+├── Career
+├── Achievements
+├── Nobel Research
+├── Books
+├── Download
+└── Contact
+
+
+| Purpose    | Color                |
+| ---------- | -------------------- |
+| Primary    | Navy Blue `#0B3D91`  |
+| Secondary  | White `#FFFFFF`      |
+| Accent     | Gold `#D4AF37`       |
+| Background | Light Gray `#F8F9FA` |
+| Text       | Dark Gray `#212529`  |
+
+
+headings
+Poppins
+
+para
+Roboto
+
+
+Primary Color
+Navbar
+Hero Section
+Headings
+Buttons
+Icons
+
+Secondary Color
+Background
+Cards
+Text ke peeche
+Navbar
+
+Accent
+Learn More Button
+Download Button
+Nobel Medal Icon
+Important Numbers
