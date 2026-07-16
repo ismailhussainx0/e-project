@@ -15,13 +15,6 @@ body {
     padding: 18px 0;
 }
 
-@media (max-width: 480px) {
-
-    .navbar {
-        padding: 12px 0;
-    }
-
-}
 
 .navbar-brand img {
     height: 60px;
@@ -48,6 +41,165 @@ body {
     box-shadow: none;
 }
 
-.active{
+.active {
     color: #D4AF37 !important;
+}
+
+/* mobile mediaquery */
+@media (max-width: 768px) {
+
+    .navbar {
+        padding: 12px 0;
+    }
+
+}
+
+
+/* hero section */
+.hero-section {
+    padding: 100px 0;
+    background: #F8F9FA;
+}
+
+
+.hero-sub-heading {
+    color: #D4AF37;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.highlight {
+    color: #D4AF37;
+}
+
+.hero-main-heading {
+    font-size: 55px;
+    font-weight: 700;
+    color: #0B3D91;
+    margin: 15px 0;
+}
+
+
+.hero-para {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+
+.hero-btn {
+    background: #D4AF37;
+    color: white;
+    padding: 12px 35px;
+    border-radius: 40px;
+}
+
+.hero-btn:hover {
+    background: #0B3D91;
+    color: white;
+}
+
+.hero-img-column {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-img {
+    width: 100%;
+    max-width: 380px;
+    aspect-ratio: 4/5;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 5px solid #fff;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .15);
+}
+
+
+/* media Query */
+
+@media (max-width: 768px) {
+
+    .hero-section {
+        padding: 80px 0;
+    }
+
+    .hero-img {
+        max-width: 300px;
+    }
+
+}
+
+
+/* Reuseable classsess */
+
+section {
+    padding: 100px 0;
+}
+
+.heading {
+    font-size: 42px;
+    font-weight: 700;
+    color: #0B3D91;
+}
+
+.sub-heading {
+    font-size: 18px;
+    color: #6c757d;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+
+
+/* Biography section */
+
+.biography-img {
+    max-width: 340px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .15);
+}
+
+.biography-card {
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .08);
+    border-top: 5px solid #D4AF37;
+    width: 100%;
+}
+
+.biography-body {
+    padding: 35px;
+}
+
+.biography-label {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0B3D91;
+    margin-bottom: 22px;
+}
+
+.biography-label i {
+    color: #D4AF37;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+
+.biography-para {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #555;
+    margin-top: 30px;
+}
+
+
+
+@media (max-width: 768px) {
+
+  .biography-img{
+        max-width:300px;
+    }
+
 }
