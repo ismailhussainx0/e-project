@@ -5,7 +5,6 @@
 }
 
 body {
-    background-color: #F8F9FA;
     font-family: roboto;
 }
 
@@ -137,7 +136,8 @@ section {
     padding: 100px 0;
 }
 
-.heading {
+.sec-heading {
+    font-family: poppins;
     font-size: 42px;
     font-weight: 700;
     color: #0B3D91;
@@ -151,6 +151,13 @@ section {
 }
 
 
+@media (max-width: 768px) {
+
+section{
+    padding: 80px 0px;
+}
+
+}
 
 /* Biography section */
 
@@ -180,6 +187,10 @@ section {
     margin-bottom: 22px;
 }
 
+.biography-strong{
+    font-family: poppins;
+}
+
 .biography-label i {
     color: #D4AF37;
     margin-right: 10px;
@@ -202,4 +213,52 @@ section {
         max-width:300px;
     }
 
+}
+
+
+
+/* education section */
+
+.education-section{
+    background:#F8F9FA;
+}
+
+.edu-card{
+    border:none;
+    border-radius:18px;
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+    transition:.3s ease;
+    height:100%;
+}
+
+.edu-card:hover{
+    transform:translateY(-10px);
+}
+
+.edu-body{
+    padding:30px;
+}
+
+.edu-body h3{
+    color:#0B3D91;
+    font-size:24px;
+    font-weight:700;
+    margin-bottom:20px;
+    font-family: poppins;
+}
+
+.edu-body h3 i{
+    color:#D4AF37;
+    margin-right:10px;
+}
+
+.edu-body strong{
+    display:block;
+    margin-bottom:16px;
+    color:#212529;
+}
+
+.edu-para{
+    color:#6c757d;
+    line-height:1.8;
 }
