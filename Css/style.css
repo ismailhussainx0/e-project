@@ -153,9 +153,9 @@ section {
 
 @media (max-width: 768px) {
 
-section{
-    padding: 80px 0px;
-}
+    section {
+        padding: 80px 0px;
+    }
 
 }
 
@@ -187,7 +187,7 @@ section{
     margin-bottom: 22px;
 }
 
-.biography-strong{
+.biography-strong {
     font-family: poppins;
 }
 
@@ -209,8 +209,8 @@ section{
 
 @media (max-width: 768px) {
 
-  .biography-img{
-        max-width:300px;
+    .biography-img {
+        max-width: 300px;
     }
 
 }
@@ -219,46 +219,124 @@ section{
 
 /* education section */
 
-.education-section{
-    background:#F8F9FA;
+.education-section {
+    background: #F8F9FA;
 }
 
-.edu-card{
-    border:none;
-    border-radius:18px;
-    box-shadow:0 15px 35px rgba(0,0,0,.08);
-    transition:.3s ease;
-    height:100%;
+.edu-card {
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .08);
+    transition: .3s ease;
+    height: 100%;
 }
 
-.edu-card:hover{
-    transform:translateY(-10px);
+.edu-card:hover {
+    transform: translateY(-10px);
 }
 
-.edu-body{
-    padding:30px;
+.edu-body {
+    padding: 30px;
 }
 
-.edu-body h3{
-    color:#0B3D91;
-    font-size:24px;
-    font-weight:700;
-    margin-bottom:20px;
+.edu-body h3 {
+    color: #0B3D91;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
     font-family: poppins;
 }
 
-.edu-body h3 i{
-    color:#D4AF37;
-    margin-right:10px;
+.edu-body h3 i {
+    color: #D4AF37;
+    margin-right: 10px;
 }
 
-.edu-body strong{
-    display:block;
-    margin-bottom:16px;
-    color:#212529;
+.edu-body strong {
+    display: block;
+    margin-bottom: 16px;
+    color: #212529;
 }
 
-.edu-para{
-    color:#6c757d;
-    line-height:1.8;
+.edu-para {
+    color: #6c757d;
+    line-height: 1.8;
+}
+
+
+
+/* Career Section */
+
+.timeline {
+    position: relative;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 4px;
+    height: 100%;
+    background: #0B3D91;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.timeline-circle {
+    position: absolute;
+    top: 5px;
+    left: 14px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #0B3D91;
+    border: 4px solid #fff;
+}
+
+.timeline-content {
+    margin-left: 60px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-year{
+    display: inline-block;
+    background: #0B3D91;
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 30px;
+    border: 2px solid #D4AF37;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.timeline-heading{
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .timeline-content {
+        margin-left: 40px;
+    }
+
+    .timeline-para {
+        line-height: 1.8;
+    }
+
+      .timeline-heading{
+        font-size:1.25rem;
+    }
+
+     .timeline-content{
+        padding:16px;
+    }
+
 }
