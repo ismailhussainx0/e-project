@@ -320,6 +320,8 @@ section {
 
 .timeline-heading{
     font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 @media (max-width: 768px) {
@@ -337,6 +339,84 @@ section {
 
      .timeline-content{
         padding:16px;
+    }
+
+}
+
+
+
+/* Achievement Card */
+.achievement-card{
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: all .3s ease;
+}
+
+.achievement-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+
+/* Card Body */
+.achievement-body{
+    padding: 35px 25px;
+    text-align: center;
+}
+
+/* Icon */
+.achievement-body i{
+    font-size: 2.5rem;
+    color: #D4AF37;
+    margin-bottom: 20px;
+}
+
+.achievement-body i{
+    transition: transform .3s ease;
+}
+
+.achievement-card:hover i{
+    transform: scale(1.15);
+}
+
+
+/* Title */
+.achievement-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #0B3D91;
+    margin-bottom: 15px;
+}
+
+/* Paragraph */
+.achievement-para{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 0;
+}
+
+
+
+/* Mobile */
+@media (max-width:768px){
+
+    .achievement-body{
+        padding:25px 20px;
+    }
+
+    .achievement-body i{
+        font-size:2rem;
+    }
+
+    .achievement-title{
+        font-size:1.3rem;
+    }
+
+    .achievement-para{
+        line-height:1.8;
     }
 
 }
